@@ -1,0 +1,13 @@
+print("Hello World")
+import numpy as np
+a=[2,4,6,8,10,12,14,16,18,20]
+b=np.array(a)
+print(b)
+c=input("at what time will the shuttle be launched?\n")
+print(c)
+print("the type of input is",type(c))
+arr = np.array(a)
+print("array is of type:",type(arr))
+print("shape of array:",arr.shape)
+print("array stores element of type:",arr.dtype)
+print (arr)
