@@ -1,0 +1,20 @@
+try:
+    a=float(input("enter the first number:\n"))
+    b=float(input("enter the second number:\n"))
+    input("enter operator\n")
+    if '+':
+        print(a+b)
+    elif '-':
+        print(b-a)
+    elif '*':
+        print(a*b)
+    elif '/':
+        print(a/b)
+    elif '%':
+        print(a%b)
+    elif '**':
+        print(a**b)
+    else:
+        print(": )")
+except:
+    print("fuck off")
