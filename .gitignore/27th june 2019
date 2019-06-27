@@ -1,0 +1,10 @@
+#to check if number is positive or negative
+a=float(input("enter the number:\n"))
+if a==0:
+    print("it is zero")
+elif a>=0:
+    print("the number is positive")
+elif a<0:
+    print("the number is negative")
+else:
+    print("nice to meet you : )")
